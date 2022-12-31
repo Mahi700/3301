@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #398adb;
+}
+
+.wrapper{
+    height: 500px;
+    width: 800px;
+    border-radius: 12px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    height: 475px;
+    width: 770px;
+    border-radius: 10px;
+    background-color: #398adb;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+h4{
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    font-size: 29px;
+    font-weight: 500;
+    
+    margin-top: 10px;
+}
+
+.cards{
+    height: 70px;
+    width: 650px;
+    border-radius: 10px;
+    background-color: #fff;
+
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.cards:hover{
+    background-color: rgb(233, 233, 233);
+    transition: 0.4s;
+}
+
+.card_title{
+    height: 30px;
+    width: 500px;
+    background-color: transparent;
+
+    text-align: center;
+
+    margin-left: 68px;
+
+    float: left;
+    margin-top: 4px;
+}
+
+p{
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#iclass{
+    color: red;
+    font-size: 25px;
+}
+
+.link {
+    height: 30px;
+    width: 23px;
+    background-color: transparent;
+    color: transparent;
+
+    margin-top: -27px;
+    margin-left: 239px;
+}
+
+a{
+    color: transparent;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+/* <i class="fas fa-copy"></i> */
+
+/* <i class="fa-duotone fa-link-simple"></i> */

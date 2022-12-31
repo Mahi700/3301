@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FDC830;  /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to bottom, #F37335, #FDC830);/* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to bottom, #F37335, #FDC830);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    height: 460px;
+    width: 430px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text-Login{
+    margin-top: 23px;
+}
+
+h4{
+    font-weight: 600;
+    /* color: #00B4DB; */
+    color: rgba(0,0,0,30);
+    font-size: 32px;
+    text-align: center;
+}
+
+.text-Email_or_Number{
+    display: block;
+
+    font-size: 20px;
+    font-weight: 300;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.first-input{
+    display: block;
+
+    height: 50px;
+    width: 355px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    margin-left: 30px;
+    margin-top: 5px;
+
+    padding-left: 15px;
+
+    font-size: 18px;
+}
+
+.text-Password{
+    display: block;
+
+    font-size: 20px;
+    font-weight: 300;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.second-input{
+    display: block;
+
+    height: 50px;
+    width: 355px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    margin-left: 30px;
+    margin-top: 5px;
+
+    padding-left: 15px;
+
+    font-size: 18px;
+}
+
+.forgot-password_link{
+    display: inline-block;
+
+    color: #2980b9;
+    text-decoration: none;
+
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+.forgot-password_link:hover{
+    transition: 0.5ms;
+    color: #1b689b;
+}
+
+.LOGIN_button{
+    display: block;
+
+    height: 58px;
+    width: 370px;
+
+    margin-left: 30px;
+    margin-top: 26px;
+
+    font-size: 22px;
+    font-weight: 500;
+
+    background-color: #FDC830;
+    border: 0px solid #FDC830;
+
+    /* border-color: #F37335; */
+    /* fallback for old browsers */
+}
+.LOGIN_button:hover{
+    background-color: #ca9e23;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.text-Not_a_member{
+    text-size-adjust: 8px;
+    margin-top: 8px;
+}
+
+p {
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 117px;
+}
+
+.signup-now_link {
+	display: block;
+	color: #2980b9;
+	text-decoration: none;
+	margin-left: -110px;
+	margin-top: 0px;
+}
+
+.signup-now_link:hover{
+    transition: 0.5ms;
+    color: #1b689b;
+}

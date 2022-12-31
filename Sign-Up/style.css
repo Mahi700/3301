@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background-color: #8854d0; */
+    /* background-color: #2e86de; */
+    background-color: #2672be;
+}
+
+.center {
+    height: 480px;
+    width: 395px;
+    border-radius: 6px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0px  35px;
+}
+
+.text-Sign_Up {
+    text-align: center;
+    color: cadetblue;
+    
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-top: 15px;
+}
+
+.input-box label {
+    display: block;
+
+    font-size: 18px;
+
+    margin-top: 8px;
+
+}
+
+.input-box input {
+    height: 42px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 16px;
+    caret-color: #EE5A24;
+
+    padding-left: 15px;
+}
+
+button {
+    height: 50px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    background-color: #2e86de;
+
+    font-weight: 500;
+    font-size: 17px;
+    /* font-size: 22px; */
+
+    margin-top: 18px;
+}
+
+button:hover{
+    font-size: 20px;
+    background-color: #2672be;
+    transition: 0.4s;
+}
+
+.last_thing {
+    text-align: center;
+
+    margin-top: 7px;
+}
+
+.last_thing label {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.last_thing a {
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 400;
+}

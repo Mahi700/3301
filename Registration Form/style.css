@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #8854d0;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 932px;
+    width: 750px;
+    background-color: white;
+
+    padding: 0 25px;
+
+    margin-top: 200px;
+    /* margin-bottom: 147px; */
+
+    border-radius: 8px;
+}
+
+.text-Registration_Form{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.text-Full_Name{
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.First_input{
+    height: 46px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 17px;
+    font-weight: 400;
+
+    margin-top: 5px;
+
+    padding-left: 15px;
+}
+
+.text-Email_Address{
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.Second-input{
+    height: 46px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 5px;
+
+    padding-left: 15px;
+}
+
+.text-Phone_Number{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.text-Date_of_Birth {
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: 215px;
+}
+
+.Third-input{
+    height: 46px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 5px;
+
+    padding-left: 15px;
+}
+
+.Fourth-input {
+    height: 46px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 5px;
+    margin-left: 35px;
+
+    padding-left: 15px;
+}
+
+.Gender_Box{
+    display: block;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.Gender_Options{
+    display: block;
+	font-weight: 400;
+
+    accent-color: #a55eea;
+}
+
+.Male{
+    cursor: pointer;
+}
+
+.Female{
+    margin-left: 128px;
+    cursor: pointer;
+}
+
+.Prefer_Not_to_Say{
+    margin-left: 128px;
+    cursor: pointer;
+}
+
+.text-Address{
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.Address_input1{
+    height: 46px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 17px;
+    font-weight: 400;
+
+    margin-top: 6px;
+
+    padding-left: 15px;
+}
+
+.Address_input2{
+    height: 46px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 17px;
+    font-weight: 400;
+
+    margin-top: 10px;
+
+    padding-left: 15px;
+}
+
+.select-box select{
+    height: 46px;
+    width: 700px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+
+    font-size: 17px;
+    font-weight: 400;
+
+    color: #707070;
+}
+
+select{
+    margin-top: 10px;
+
+    padding-left: 15px;
+}
+
+.City_input{
+    height: 46px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 17px;
+    font-weight: 400;
+
+    margin-top: 10px;
+
+    padding-left: 15px;
+}
+
+.Region_input{
+    height: 46px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 17px;
+    font-weight: 400;
+
+    margin-top: 10px;
+
+    padding-left: 15px;
+}
+
+.Postal_Code_input{
+    height: 46px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    font-size: 17px;
+    font-weight: 400;
+
+    margin-top: 10px;
+
+    padding-left: 15px;
+}
+
+button{
+    height: 46px;
+    width: 100%;
+    border-radius: 6px;
+    border: 2px solid black;
+
+    font-size: 17px;
+    font-weight: 300;
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    background-color: #a55eea;
+    
+    cursor: pointer;
+}
+
+button:hover{
+    font-size: 20px;
+    font-weight: 400;
+
+    background-color: #8854d0;
+    /* transition: 0.4s; */
+    transition: all 0.5s ease;
+}
+
+.text-Filled_Wrong_Info{
+    margin-left: 250px;
+    display: block;
+
+    margin-bottom: -15px;
+}
+
+.RESET-Button{
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    margin-left: 314px;
+}
+
+.RESET-Button:hover{
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+.extra-space{
+    height: 60px;
+    width: 50px;
+    background-color: transparent;
+}

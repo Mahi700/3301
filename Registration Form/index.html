@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+    <!-- FONT -->
+    <!-- Poppins -->
+    <!-- ----------------------------------------------------------------------------- -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!-- ----------------------------------------------------------------------------- -->
+</head>
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="text-Registration_Form">
+                <label>Registration Form</label>
+            </div>
+
+            <form action="">
+                <label for="" class="text-Full_Name">Full Name</label>
+            <input type="text" class="First_input" placeholder="Enter full name" required>
+            
+            <label for="" class="text-Email_Address">Email Address</label>
+            <input type="email" class="Second-input" placeholder="Enter Email Address" required>
+
+            
+            <label for="" class="text-Phone_Number">Phone Number</label>
+
+            <label for="" class="text-Date_of_Birth">Date of Birth</label>
+
+            <input type="number" class="Third-input" placeholder="Enter Phone Number" required>
+
+            <input type="date" class="Fourth-input" placeholder="Enter Date of Birth" required>
+
+            <div class="Gender_Box">
+                <label for="" class="text-Gender">Gender</label>
+
+                <div class="Gender_Options">
+                    <input type="radio" name="Gender" id="check" class="Male" checked>
+                <label for="check">Male</label>
+
+                <input type="radio" name="Gender" id="check" class="Female" checked>
+                <label for="check">Female</label>
+
+                <input type="radio" name="Gender" id="check" class="Prefer_Not_to_Say" checked>
+                <label for="check">Prefer Not to Say</label>
+                </div>
+            </div>
+
+            <label for="" class="text-Address">Address</label>
+            <input type="text" class="Address_input1" placeholder="Enter Street Address" required>
+            <input type="text" class="Address_input2" placeholder="Enter Street Address Line 2" required>
+
+            <div class="select-box">
+                <select name="Country" id="" required>
+                    <option hidden >Country</option>
+                    <option value="Country">Austrailia</option>
+                    <option value="Country">Bangladesh</option>
+                    <option value="Country">Pakistan</option>
+                    <option value="Country">India</option>
+                    <option value="Country">Nepal</option>
+                    <option value="Country">Bhutan</option>
+                    <option value="Country">Sri-Lanka</option>
+                    <option value="Country">Iraq</option>
+                    <option value="Country">China</option>
+                    <option value="Country">France</option>
+                    <option value="Country">Iran</option>
+                    <option value="Country">Italy</option>
+                    <option value="Country">Germany</option>
+                    <option value="Country">Russia</option>
+                    <option value="Country">Turkey</option>
+                    <option value="Country">Ukraine</option>
+                    <option value="Country">New-Zealand</option>
+                    <option value="Country">Spain</option>
+                    <option value="Country">Taiwan</option>
+                    <option value="Country">Thailand</option>
+                    <option value="Country">Japan</option>
+                    <option value="Country">Malaysia</option>
+                    <option value="Country">Indonesia</option>
+                    <option value="Country">Vietnam</option>
+                    <option value="Country">Singapore</option>
+                </select>
+            </div>
+
+            <input type="text" class="City_input" placeholder="Enter your City" required>
+            <input type="text" class="Region_input" placeholder="Enter your Region" required>
+            <input type="number" class="Postal_Code_input" placeholder="Enter Postal Code" required>
+
+            <button type="submit">Submit</button>
+
+            <label for="" class="text-Filled_Wrong_Info">Filled wrong Information?</label>
+
+            <button type="reset" class="RESET-Button">RESET</button>
+            </form>
+        </div>
+        <div class="extra-space">
+        </div>
+    </div>
+
+    
+</body>
+</html>
